@@ -8,12 +8,10 @@ Arquitectura del sistema
 \## 📘 Descripción
 
 
-
 Este proyecto implementa una API serverless en AWS que permite almacenar, consultar y eliminar metadatos de imágenes subidas a un bucket S3. Utiliza servicios gestionados como Lambda, DynamoDB, S3 y API Gateway, y se despliega automáticamente con Terraform.
 
 
 \## 🧠 Arquitectura
-
 
 
 \- \*\*S3\*\*: Almacena imágenes en la carpeta `uploads/`

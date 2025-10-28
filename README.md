@@ -1,5 +1,7 @@
 \# 🖼️ ImageMetadataAPI – Proyecto Serverless en AWS
 
+Arquitectura del sistema
+
 ![Arquitectura del sistema](arquitectura.jpg)
 
 

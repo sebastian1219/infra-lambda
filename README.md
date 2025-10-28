@@ -2,9 +2,6 @@
 
 Arquitectura del sistema
 
-![Arquitectura del sistema](arquitectura.jpg)
-
-
 \## 📘 Descripción
 
 

@@ -1,3 +1,9 @@
+# Ignorar plugins y estado local de Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignorar ZIPs y archivos temporales
 *.zip
 __pycache__/
 .env

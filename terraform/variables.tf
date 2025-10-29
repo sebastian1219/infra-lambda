@@ -1,15 +1,16 @@
 variable "bucket_name" {
-  description = "Nombre del bucket S3 para almacenar imágenes"
-  type        = string
+  type = string
 }
 
 variable "table_name" {
-  description = "Nombre de la tabla DynamoDB para metadatos"
-  type        = string
+  type = string
 }
 
 variable "lambda_role_arn" {
-  description = "ARN del rol de ejecución para funciones Lambda"
-  type        = string
+  type = string
 }
 
+variable "region" {
+  type    = string
+  default = "us-east-1"
+}

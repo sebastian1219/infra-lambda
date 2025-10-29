@@ -22,11 +22,19 @@ Este proyecto implementa una API serverless en AWS que permite almacenar, consul
 \- \*\*API Gateway\*\*: Publica la API REST con métodos `GET` y `DELETE`
 
 
-
 \## 📁 Estructura del proyecto
 
 
 image-metadata-api/ ├── terraform/ │ ├── main.tf │ ├── variables.tf │ ├── terraform.tfvars ├── lambdas/ │ ├── get\_image\_metadata/ │ │ ├── lambda\_function.py │ │ └── function.zip │ └── s3\_file\_event/ │ ├── lambda\_function.py │ └── function.zip ├── deploy.sh ├── README.md
+
+
+comandos para empaquetar las lambdas
+cd lambdas/get_image_metadata
+zip function.zip lambda_function.py
+
+
+cd ../s3_file_event
+zip function.zip lambda_function.py
 
 
 

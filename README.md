@@ -1,3 +1,5 @@
+una vez desplegada la infraestructura para activar file events es necesarios crear la carpeta uploads, ya que terraform no crea la carpeta.
+
 \# 🖼️ ImageMetadataAPI – Proyecto Serverless en AWS
 
 Arquitectura del sistema
